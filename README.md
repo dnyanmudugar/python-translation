@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Complex Translator
 
 An advanced sequence-to-sequence neural machine translation module built in PyTorch.
@@ -12,3 +13,6 @@ pip install complex_translator
 from complex_translator import MultilingualTokenizer
 tokenizer = MultilingualTokenizer()
 ```
+=======
+# complex-translator
+>>>>>>> ac620382f2b1c83ad38f42b23b3fff10724a34b2
