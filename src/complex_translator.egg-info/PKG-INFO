@@ -1,0 +1,32 @@
+Metadata-Version: 2.4
+Name: complex_translator
+Version: 0.1.0
+Summary: An advanced multilingual neural machine translation package with custom WordPiece subword tokenization.
+Project-URL: Homepage, https://github.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: torch>=2.0.0
+Requires-Dist: pandas>=1.5.0
+Requires-Dist: numpy>=1.22.0
+Requires-Dist: tqdm>=4.65.0
+Requires-Dist: scikit-learn>=1.0
+Requires-Dist: json>=1.0.0
+
+# Complex Translator
+
+An advanced sequence-to-sequence neural machine translation module built in PyTorch.
+
+## Installation
+```bash
+pip install complex_translator
+```
+
+## Quick Start
+```python
+from complex_translator import MultilingualTokenizer
+tokenizer = MultilingualTokenizer()
+```

@@ -1,0 +1,2 @@
+[console_scripts]
+complex-translate = run:main
