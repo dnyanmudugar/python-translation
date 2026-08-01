@@ -5,7 +5,8 @@ An advanced sequence-to-sequence neural machine translation module built in PyTo
 
 ## Installation
 ```bash
-pip install complex_translator
+pip install complex-translator json
+pip install transformers tokenizer sentencepiece
 ```
 
 ## Quick Start
